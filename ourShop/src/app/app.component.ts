@@ -7,7 +7,8 @@ import { ProjectDashBordComponent } from './dashBord/component/project-dash-bord
   standalone: true,
   imports: [RouterOutlet,ProjectDashBordComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
+  
 })
 export class AppComponent {
   title = 'ourShop';
